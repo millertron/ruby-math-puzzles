@@ -40,7 +40,6 @@ else
 
 	while n < input / n
 		if is_prime? n
-			puts "PN - #{n} : #{(input/n).floor}"
 			if input % n == 0
 				largest_prime = n
 			end
